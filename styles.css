@@ -1,0 +1,245 @@
+/* Start General */
+@media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      background-image: url('pickle-banner.jpg');
+      background-repeat: no-repeat;
+      background-position: -29% 25%;
+      background-size: 900px;
+      background-color: #222;
+  }
+  
+  p{
+      text-transform: none;
+  }
+  
+  a, header, button, #input {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+  
+  li, span {
+      text-transform: none;
+  }
+  
+  h2 {
+      text-align: center;
+      position: relative;
+      top: 70px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      color: rgba(255, 255, 255, 0.879);
+  }
+
+  h3, p {
+    color: #cec6bd;
+  }
+  /* End General */
+  
+  /* Start of Navbar */
+  nav {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      background-color: rgb(245, 239, 233);
+      opacity: 1;
+  }
+  
+  #header-img {
+      width: 150px;
+      padding: 5px 40px;
+      position: relative;
+      bottom: -3px;
+      
+  }
+  
+  .nav-link {
+      float: right;
+      padding: 25px 30px;
+      position: relative;
+      bottom: 0px;
+      color: #918474;
+  }
+
+  .nav-link:hover, li:hover {
+      text-decoration: underline;
+  }
+  /* End of Navbar */
+  
+  /* Start of form */
+  #form-div {
+      height: 200px;
+      display: flex;
+      justify-content: center;
+  }
+  
+  #form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  input[type=email] {
+      width: 200px;
+      padding: 5px;
+      text-align: center;
+  }
+  
+  input[type=submit], .btn {
+      width: 150px;
+      margin-top: 20px;
+      background-color: #f1c40f;
+      border: 0;
+      height: 30px;
+      font-weight: bold;
+      text-transform: capitalize;
+  }
+
+  input[type=submit]:hover, .btn:hover {
+    background: #e25b41;
+    color: #fff;
+  }
+  /* End of form */
+  
+  /* Start of Main */
+  .pickle-img {
+      width: 30px;
+      height: 30px;
+      padding-right: 50px;
+      
+  }
+  
+  .container {
+      height: 340px;
+      width: 570px;
+      margin-left: 800px;
+      margin-top: 40px;
+  }
+  
+  .grid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .desc {
+  padding-top: -20px;
+  margin-top: -20px;
+  }
+  
+  .vid-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 1000px;
+      margin: 50px auto;
+  }
+
+  #logo {
+    transform: rotate(340deg);
+  }
+  
+  .pricing-section {
+      display: flex;
+      justify-content: space-between;
+      height: 400px;
+      padding: 20px 170px ;
+  }
+  
+  .pricing-container {
+      height: 350px;
+      width: 330px;
+      border: 1px;
+      border-style: solid;
+      border-color: rgb(97, 93, 93);
+      text-align: center;
+      position: relative;
+  }
+  
+  .pricing-header {
+      height: 50px;
+      width: 100%;
+      background-color: rgb(245, 239, 233);
+      position: absolute;
+  }
+  
+  .pricing-title {
+      line-height: 12.5px;
+      color: #918474;
+  }
+  
+  .pricing-img {
+      width: 200px;
+      position: relative;
+      top: 60px;
+      
+  }
+  
+  .pickle-desc {
+      position: relative;
+      text-align: center;
+      margin-top: 20px;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  
+  .btn {
+      width: 150px;
+      position: relative;
+      top: -25px;
+  }
+  
+  .price-button {
+    
+  }
+  /* End of main */
+  
+  /* Start of Footer */
+  .footer-div {
+      height: auto;
+      width: 100%;
+      background-color: rgb(245, 239, 233);
+      position: absolute;
+      left: 0;
+      box-sizing: border-box;
+      text-align: right;
+  }
+  
+  footer {
+      display: flex;
+      justify-content: flex-end;
+      color: #bfb8b0;
+  }
+  
+  span {
+      display: flex;
+      justify-content: flex-end;
+      position: absolute;
+      bottom: 0px;
+      padding: 15px;
+      padding-right: 23px;
+      font-weight: bold;
+      color: #918474;
+  }
+  
+  li {
+      list-style-type: none;
+      display: inline-block;
+      padding-bottom: 20px;
+      padding-right: 24px;
+      padding-top: 0px;
+      color: #918474;
+      font-weight: bold;
+  }
+  /* End of footer */
